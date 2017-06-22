@@ -19,6 +19,3 @@ RUN yum update -y && \
 
 # add java to PATH
 COPY java.sh /etc/profile.d/java.sh
-
-#WORKDIR /
-#ENTRYPOINT ["true"]
