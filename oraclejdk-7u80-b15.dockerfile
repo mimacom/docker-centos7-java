@@ -18,4 +18,4 @@ RUN yum update -y && \
     rm -f /opt/jdk.tar.gz
 
 # add java to PATH
-COPY java.sh /etc/profile.d/java.sh
+COPY java_oraclejdk.sh /etc/profile.d/java.sh
