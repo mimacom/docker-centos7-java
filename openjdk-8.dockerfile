@@ -11,3 +11,5 @@ RUN yum update -y && \
 
 # set JAVA_HOME
 COPY java_openjdk.sh /etc/profile.d/java.sh
+
+USER user

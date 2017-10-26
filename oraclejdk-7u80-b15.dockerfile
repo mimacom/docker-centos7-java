@@ -19,3 +19,5 @@ RUN yum update -y && \
 
 # add java to PATH
 COPY java_oraclejdk.sh /etc/profile.d/java.sh
+
+USER user
