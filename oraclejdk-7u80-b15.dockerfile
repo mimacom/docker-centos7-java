@@ -1,4 +1,4 @@
-FROM centos:7
+FROM mimacom/centos7
 MAINTAINER sysadmin@mimacom.com
 
 ENV VERSION 7
